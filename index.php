@@ -2,8 +2,8 @@
 // index.php
 
 // ubicacion XML online y local
-define('XML', 'http://datos.gijon.es/doc/turismo/playas.xml');
-define('XMLlocal', 'playas.xml'); 
+define('XML', 'http://www.zilles.info/php/1111.xml');
+define('XMLlocal', '1111.xml'); 
 
 // leer XML validamos si el fichero online e accesible y si no abrimos el XML local
 if($data = simplexml_load_file(XML)){
@@ -15,7 +15,8 @@ else{
 ?>
 
 <html>
-<h1>Playas de Gijón</h1>
+<h1>Illés Zoltán</nav></nav>
+</h1>
 
 <?php
 	//bucle para recorrer los elementos del array
